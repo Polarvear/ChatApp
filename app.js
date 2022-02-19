@@ -2,14 +2,22 @@
 
 
 const express = require("express")
-const app = express();
-const path = require("path")
+const http = require("http")
+const app = express(); //1) express 를 구현한 app이
+const path = require("path") //2) 경로를 통해서
+const server = http.createServer(app) //3) 실행할 수 있도록
+const socketIO = require("socket.io")
 
-console.log("Hello")
+
+const io = socketIO(server)
 
 //console.log(__dirname)현재 경로 알려줌 join을 쓴 이유는 운영 체제마다 /, \가 다르기 때문에
 app.use(express.static(path.join(__dirname, "src"))) // 경로 설정과 자세히 알려주는 dirname 추가
 
 const PORT = process.env.PORT || 5000; //지정된 포트번호가 있으면 사용하거나 아니면 5000번 사용
 
-app.listen(PORT, () => console.log(`sever is running ${PORT}`))
+server.listen(PORT, () => console.log(`sever is running ${PORT}`))
+
+io.on("connection", (socket)=> {
+    console.log("연결이 이루어졌습니다.")
+}) // io를 들고와서 제어할 것임
