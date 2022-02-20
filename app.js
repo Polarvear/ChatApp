@@ -9,7 +9,7 @@ const server = http.createServer(app) //3) 실행할 수 있도록
 const socketIO = require("socket.io")
 
 
-const io = socketIO(server)
+const io = socketIO(server);
 
 //console.log(__dirname)현재 경로 알려줌 join을 쓴 이유는 운영 체제마다 /, \가 다르기 때문에
 app.use(express.static(path.join(__dirname, "src"))) // 경로 설정과 자세히 알려주는 dirname 추가
