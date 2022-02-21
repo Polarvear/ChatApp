@@ -21,3 +21,5 @@ server.listen(PORT, () => console.log(`sever is running ${PORT}`))
 io.on("connection", (socket)=> {
     console.log("연결이 이루어졌습니다.")
 }) // io를 들고와서 제어할 것임
+
+
