@@ -19,7 +19,10 @@ const PORT = process.env.PORT || 5000; //지정된 포트번호가 있으면 사
 server.listen(PORT, () => console.log(`sever is running ${PORT}`))
 
 io.on("connection", (socket)=> {
-    console.log("연결이 이루어졌습니다.")
+    console.log("chatting",(data) => {
+        console.log(data)
+        io.emit("chatting", `그래 반가워 ${data}`) // 서버에 보내기 성공
+    })
 }) // io를 들고와서 제어할 것임
 
 
