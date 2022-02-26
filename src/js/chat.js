@@ -9,4 +9,4 @@ socket.on("chatting", (data)=>{
     console.log(data)
 })
 
-console.log(socket + '입니다.')
+console.log(socket)
