@@ -8,7 +8,9 @@ const chatInput = document.querySelector(".chatting-input")
 const sendButton = document.querySelector(".send-button")
 
 sendButton.addEventListener("click", (e) => {
-
+    const param = {
+        name: nickname.value,
+    }
 },false)
 
 socket.emit("chatting", "from front")
