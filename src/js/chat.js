@@ -10,6 +10,8 @@ const sendButton = document.querySelector(".send-button")
 sendButton.addEventListener("click", (e) => {
     const param = {
         name: nickname.value,
+        list: chatList.value,
+
     }
 },false)
 
