@@ -11,6 +11,7 @@ sendButton.addEventListener("click", (e) => {
     const param = {
         name: nickname.value,
         list: chatList.value,
+        input : chatInput,
 
     }
 },false)
