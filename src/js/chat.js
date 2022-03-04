@@ -12,6 +12,7 @@ sendButton.addEventListener("click", (e) => {
         name: nickname.value,
         list: chatList.value,
         input : chatInput,
+        button : sendButton
 
     }
 },false)
