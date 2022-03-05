@@ -10,14 +10,13 @@ const sendButton = document.querySelector(".send-button")
 sendButton.addEventListener("click", (e) => {
     const param = {
         name: nickname.value,
-        list: chatList.value,
-        input : chatInput,
-        button : sendButton
+        msg: chatInput.value,
 
     }
+    socket.emit("chatting", "param")
 },false)
 
-socket.emit("chatting", "from front")
+
 
 socket.on("chatting", (data)=>{
     //console.log(data)
