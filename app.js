@@ -20,7 +20,7 @@ server.listen(PORT, () => console.log(`sever is running ${PORT}`))
 
 io.on("connection", (socket)=> {
     console.log("chatting",(data) => {
-        console.log(data,'data 입니다.')
+        console.log(data)
         io.emit("chatting", data) // 서버에 보내기 성공 내용은 클라이언트에서 처리
     })
 }) // io를 들고와서 제어할 것임

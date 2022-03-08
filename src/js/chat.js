@@ -19,7 +19,9 @@ sendButton.addEventListener("click", (e) => {
 
 
 socket.on("chatting", (data)=>{
-    //console.log(data)
+    const li = document.createElement('li')
+    li.innerText = `${data.name}님이 - ${data.msg}` // 탬플릿 문법 사용
+    chatList.appendChild(li)
 })
 
 console.log(socket)
