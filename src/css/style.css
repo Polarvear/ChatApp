@@ -11,4 +11,13 @@ html, body {
     width:100%;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+}
+.user-container {
+    background: #a9bdce;
+    flex: 1; <!--비율로 조정을 함 -->
+}
+.display-container {
+    flex: 12;
+    background: #b2c7d9;
 }
