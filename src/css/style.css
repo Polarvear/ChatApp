@@ -16,8 +16,25 @@ html, body {
 .user-container {
     background: #a9bdce;
     flex: 1; <!--비율로 조정을 함 -->
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+.user-container label {
+    font-size: 14px;
+    margin-right: 1rem;
+}
+.user container input{
+    border-radius: 3px;
+    border: none;
+    height: 100%;
 }
 .display-container {
     flex: 12;
     background: #b2c7d9;
+    overflow-y: scroll;
+}
+.input-container {
+    flex:2;
 }
