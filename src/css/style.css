@@ -54,9 +54,16 @@ html, body {
     border: none;
 }
 .send-button {
-    flex:1;
+    flex:3;
     background: #ffeb33;
     border: none;
     height: 100%;
     border-radius: 5px;
+}
+.chatting-list-li {
+    width: 90%;
+    padding: 0.3rem;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-end; <!--밑으로 정렬 -->
 }
