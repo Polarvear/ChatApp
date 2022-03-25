@@ -74,6 +74,11 @@ html, body {
     align-items: center;
     justify-content: center;
 }
+.profile user {
+    font-size: 10px;
+    margin-bottom: 0.2rem;
+}
+
 .profile .image {
     border-radius: 50%;
     object-fit:cover; <!-- 이렇게 하면 이미지가 맞춰서 들어감 -->
