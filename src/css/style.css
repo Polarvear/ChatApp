@@ -76,7 +76,7 @@ html, body {
 }
 .profile user {
     font-size: 10px;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.3rem;
 }
 
 .profile .image {
@@ -84,4 +84,10 @@ html, body {
     object-fit:cover; <!-- 이렇게 하면 이미지가 맞춰서 들어감 -->
     width:50px;
     height:50px;
+}
+.message {
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 12px;
+    margin: 0 5px;
 }
