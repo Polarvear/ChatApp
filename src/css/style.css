@@ -97,6 +97,10 @@ html, body {
     margin: 0 5px;
 }
 
+.sent {
+    flex-direction: row-reverse;
+}
+
 .sent .message{
     background: #ffeb33;
 }
