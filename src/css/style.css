@@ -99,6 +99,7 @@ html, body {
 
 .sent {
     flex-direction: row-reverse;
+    float: right;
 }
 
 .sent .message{
