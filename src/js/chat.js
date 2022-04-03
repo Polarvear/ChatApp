@@ -25,4 +25,12 @@ socket.on("chatting", (data)=>{
     chatList.appendChild(li)
 })
 
-console.log(socket)
+function LiMode(name, msg, time) {
+    this.name = name
+    this.msg = msg
+    this.time = time
+
+    this.makeLi = () => {
+        const li = document.createElement("li")
+    }
+}
