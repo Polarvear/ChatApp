@@ -32,5 +32,6 @@ function LiMode(name, msg, time) {
 
     this.makeLi = () => {
         const li = document.createElement("li")
+        const dom = ``
     }
 }
