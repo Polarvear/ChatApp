@@ -39,6 +39,5 @@ function LiMode(name, msg, time) {
                 <span class="message">${this.msg}</span>
                 <span class="time">${this.time}</span>`
                 li.innerHTML = dom
-        console.log(max)
     }
 }
