@@ -38,7 +38,7 @@ function LiMode(name, msg, time) {
                 </span>
                 <span class="message">${this.msg}</span>
                 <span class="time">${this.time}</span>`
-                li.innerHTML = dom
+
                 dom = innerHeight;
     }
 }
