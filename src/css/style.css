@@ -86,7 +86,7 @@ html, body {
     height:50px;
 }
 .message {
-    border-radius: 5px;
+    border-radius: 4px;
     padding: 0.5rem;
     font-size: 12px;
     margin: 0 5px;
