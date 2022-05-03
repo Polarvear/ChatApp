@@ -27,7 +27,7 @@ socket.on("chatting", (data)=>{
 
 function LiMode(name, msg, time) {
     this.name = name
-    this.msg = msg
+    this.msg = msgds
     this.time = time
 
     this.makeLi = () => {
