@@ -50,7 +50,7 @@ html, body {
 .chatting-input {
     font-size: 12px;
     height: 100%;
-    flex: 8;
+    flex: 9;
     border: none;
 }
 .send-button {
