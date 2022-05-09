@@ -48,7 +48,7 @@ html, body {
     padding:0.4rem;
 }
 .chatting-input {
-    font-size: 12px;
+    font-size: 14px;
     height: 100%;
     flex: 10;
     border: none;
