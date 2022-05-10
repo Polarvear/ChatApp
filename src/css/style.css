@@ -62,7 +62,7 @@ html, body {
 }
 .chatting-list li {
     width: 90%;
-    padding: 0.3rem;
+    padding: 0.4rem;
     display:flex;
     justify-content: flex-start;
     align-items: flex-end; <!--밑으로 정렬 -->
