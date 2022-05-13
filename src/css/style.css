@@ -15,7 +15,7 @@ html, body {
 }
 .user-container {
     background: #a9bdce;
-    flex: 1; <!--비율로 조정을 함 -->
+    /* flex: 1; <!--비율로 조정을 함 --> */
     display: flex;
     justify-content: center;
     align-items: center;
